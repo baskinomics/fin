@@ -1,5 +1,6 @@
 module fin
 
-greet() = print("Hello World!")
+include("Budget.jl")
+include("Statement.jl")
 
 end # module
