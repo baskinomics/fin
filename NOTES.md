@@ -1,6 +1,7 @@
 # Notes
 
-Possible integration w/ [Plaid](https://plaid.com/) in future roadmap.
+* Possible integration w/ [Plaid](https://plaid.com/) in future roadmap.
+* See [Julia + TOML](https://discourse.julialang.org/t/best-way-to-create-config-files-does-julia-support-toml-natively/21415)
 
 ## Process
 - [ ] ETL
@@ -61,11 +62,12 @@ Allocated vs actual.
   * Subscriptions
   * Gym Membership
 
-## Report
-todo
+## Reports
+* [Income Statement](https://en.wikipedia.org/wiki/Income_statement)
+* [Balance Sheet](https://en.wikipedia.org/wiki/Balance_sheet)
+* [Amortization Schedule](https://en.wikipedia.org/wiki/Amortization_schedule)
 
 ### Metrics
-
 | Metric | Description |
 | ------ | ----------- |
 | [Consumer Leverage Ratio](https://en.wikipedia.org/wiki/Consumer_leverage_ratio) | the ratio of total household debt to disposable personal income |
