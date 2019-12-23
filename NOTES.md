@@ -3,6 +3,13 @@
 * Possible integration w/ [Plaid](https://plaid.com/) in future roadmap.
 * See [Julia + TOML](https://discourse.julialang.org/t/best-way-to-create-config-files-does-julia-support-toml-natively/21415)
 
+## Resources
+* [BYU Personal Finance](https://personalfinance.byu.edu/helpingothers)
+* [Missouri State - Personal Financial Plan](https://web.archive.org/web/20150917050157/http://www.missouristate.edu/assets/reallife/Creating_a_Personal_Financial_Plan.pdf)
+
+## Gloassary of Terms
+* [Income](https://en.wikipedia.org/wiki/Income)
+
 ## Process
 - [ ] ETL
   - [ ] Transactions
