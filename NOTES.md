@@ -3,18 +3,26 @@
 Possible integration w/ [Plaid](https://plaid.com/) in future roadmap.
 
 ## Process
-* ETL
-  * Transactions
+- [ ] ETL
+  - [ ] Transactions
+    * Download
+    * Sanitize
     * Categorization
-  * Budget (TOML)
-* Report Generation
-  * `Data -> Markdown -> PDF`
-  
+  - [ ] Budget (TOML)
+    * Credit Cards
+    * Loans
+    * Medical
+- [ ] Report Generation (`Data -> Markdown -> PDF`)
+  - [ ] [`Weave.jl`](http://weavejl.mpastell.com/stable/)
+
 ### Transactions
-`[M][Download] -> [A][Sanitize] -> [M][Categorize]`
+- [ ] Download 
+- [ ] Sanitize
+- [ ] Categorize
 
 ### Budget
-`[M][Budget]`
+- [ ] Design specification
+- [ ] Domain modeling
 
 ## Concepts
 
