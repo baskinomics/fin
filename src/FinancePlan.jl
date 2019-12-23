@@ -1,15 +1,17 @@
 "Contains structs and methods for a monthly budget."
-module Budget
+module FinancePlan
 
 # Module loading
 using Pkg: TOML
+
+export ingestbudget
 
 "Parses the given TOML file `file` and serializes it to a `Budget` composite type."
 ingestbudget(file) = TOML.parsefile(file)
 
 "Composite type representing a user's budget."
 struct Budget
-    # todo collections of income and expenditures?
+    
 end
 
 "Personal information about the user which is used in the report generation."
