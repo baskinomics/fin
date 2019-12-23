@@ -2,3 +2,10 @@ name = "fin"
 uuid = "62d287cc-6c73-48f9-9634-b33042f0bcb4"
 authors = ["Sean Baskin <sean.baskin@lasp.colorado.edu>"]
 version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Match = "7eb4fadd-790c-5f42-8a69-bfa0b872bfbf"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
