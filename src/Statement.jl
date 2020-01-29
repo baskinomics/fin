@@ -1,5 +1,10 @@
 module Statement
 
+import CSV
+import DataFrames
+import Dates
+import Match
+
 using CSV
 using DataFrames
 using Dates
@@ -8,11 +13,11 @@ using Match
 export extract, transform
 
 """
-Creates a sanitized CSV file from the dirty Bank of America transaction 
-statement located at `path`. 
+Creates a sanitized CSV file from the dirty Bank of America transaction
+statement located at `path`.
 """
 function extract(path::String)
-    if isdir(path) 
+    if isdir(path)
         throw(ArgumentError) # todo Implement own error type
     end
 
