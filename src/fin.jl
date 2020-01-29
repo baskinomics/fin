@@ -126,4 +126,9 @@ function transform(earnings::Dict{String,Any})
     end
 end
 
+"""
+See: [Consumer leverage ratio](https://en.wikipedia.org/wiki/Consumer_leverage_ratio)
+"""
+consumer_leverage_ratio(debt::Float64, di::Float64) = debt / di
+
 end # MODULE
