@@ -4,3 +4,6 @@
 
 # VSCode
 *.code-workspace
+
+# Don't want to commit my personal financial information ;)
+main.jl
