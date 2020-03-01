@@ -1,6 +1,6 @@
 name = "fin"
 uuid = "62d287cc-6c73-48f9-9634-b33042f0bcb4"
-authors = ["Sean Baskin <sean.baskin@lasp.colorado.edu>"]
+authors = ["Sean Baskin <seanbaskin@gmail.com>"]
 version = "0.1.0"
 
 [deps]
