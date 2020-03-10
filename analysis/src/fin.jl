@@ -40,11 +40,6 @@ abstract type Expenditure end
 "Represents the supertype of various financial plans."
 abstract type Plan end
 
-"Represents an individual's liquid cash."
-struct Cash <: CCE
-    value::Float64
-end
-
 "Represents a deposit account held at a commercial bank."
 struct TransactionAccount <: DemandDepositAccount
     value::Float64
@@ -95,6 +90,13 @@ struct Monthly <: Plan
     income::Salary
     "The collection of monthly expenses."
     expenses::Array{BudgetExpenditure,1}
+    "The unallocated remainder"
+end
+
+"todo documentation"
+struct Debt <: Liability
+    "todo documentation"
+    value::Float64
 end
 
 """
@@ -125,6 +127,8 @@ function transform(earnings::Dict{String,Any})
         end
     end
 end
+
+# function disposable_income()
 
 """
 See: [Consumer leverage ratio](https://en.wikipedia.org/wiki/Consumer_leverage_ratio)
